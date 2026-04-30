@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <script src="https://oprfchamber.chambermaster.com/Content/Script/Member.js"></script>
+  <style>
+    body {
+      margin: 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div id="mni-membership-639130859342936364"></div>
+
+<script>
+  window.addEventListener("load", function () {
+    new MNI.Widgets.Member("mni-membership-639130859342936364", {
+      member: 51,
+      styleTemplate: "#@id{text-align:center;position:relative}#@id .mn-widget-member-name{font-weight:700}#@id .mn-widget-member-logo{max-width:100%}"
+    }).create();
+  });
+</script>
+
+</body>
+</html>
